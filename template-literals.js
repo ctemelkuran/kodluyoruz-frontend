@@ -28,4 +28,8 @@ console.log(domainPart)
 // index bulma ve sadece kodluyoruz kısmını al
 console.log(domainPart.slice(0, domainPart.indexOf('.')))
 
-//
+// Bilgi degistir, replace
+email = email.replace("kodluyoruz.org", "gmail.com")
+console.log(email)
+
+// istediğim bilgi var mı
