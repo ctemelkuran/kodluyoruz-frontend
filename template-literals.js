@@ -44,4 +44,7 @@ let fullName = `${firstName[0].toUpperCase()}${firstName.slice(1).toLowerCase()}
 
 console.log(fullName)
 
+// ASCII kodunu bulma 
+console.log(fullName.charCodeAt(0))
+
 
