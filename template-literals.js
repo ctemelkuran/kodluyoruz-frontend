@@ -32,4 +32,16 @@ console.log(domainPart.slice(0, domainPart.indexOf('.')))
 email = email.replace("kodluyoruz.org", "gmail.com")
 console.log(email)
 
-// istediğim bilgi var mı
+// istediğim bilgi var mı, includes
+email.includes("hotmail") // false 
+
+//başlangıöi bitiş kontrolü
+email.endsWith("com") // true
+
+// İlk harfi büyük
+let firstName = "cigir"
+let fullName = `${firstName[0].toUpperCase()}${firstName.slice(1).toLowerCase()}`
+
+console.log(fullName)
+
+
