@@ -7,6 +7,7 @@ console.log("Merhaba", username , "hosgeldin mail adrsin: ", email)
 
 let info = `Merhaba ${username} hosgeldin 
 mail uzunluğu ${email.length}
-Yaşın: ${(new Date().getFullYear() - 1997)}`
+Yaşın: ${(new Date().getFullYear() - 1997)}
+kısa isim: ${username[0]}.`
 
 console.log(info)
